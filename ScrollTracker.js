@@ -5,7 +5,7 @@
  * Track page scroll with % of page/pixels with time taken in Google Analytics
  * Watch elements and fire an event when it is first viewed.
  *
- * @dependency: jQuery, Google Analytics
+ * @dependency: jQuery, Google Analytics, few Underscore fns
  * @author: Vasanth Krishnamoorthy
  */
 
