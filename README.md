@@ -1,9 +1,14 @@
-Scroll Tracker jQuery Plugin
+# Scroll Tracker jQuery Plugin
  
  
- Used to track sections of the page viewed by the user.
- Track page scroll with % of page/pixels with time taken in Google Analytics
- Watch elements and fire an event when it is first viewed.
+Scroll Tracker is jQuery plugin that is Used to track how far down the page users have seen and attache event to individual sections of the page viewed by the user
+
+
+It track page scroll by logging the % of page/pixels viewed and the total time taken.
+It also provides the ability to watch elements and fire an event when it is first viewed.
  
- Dependencies: jQuery, Google Analytics
+Dependencies: jQuery, lodash (Scroll throttling)
  
+
+## License
+Licensed under the MIT and GPL licenses.
