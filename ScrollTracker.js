@@ -9,7 +9,17 @@
  * @author: Vasanth Krishnamoorthy
  */
 
-(function ($, window, document) {
+
+;
+(function (factory) {
+	if (typeof define === 'function' && define.amd) {
+		// AMD. Register as an anonymous module.
+		define(['jquery'], factory);
+	} else {
+		// Browser globals
+		factory(jQuery);
+	}
+}(function ($, window, document) {
 	var defaults = {
 		track_percent_scrolled: true,
 		track_pixels_scrolled: false,
@@ -80,4 +90,4 @@
 
 	};
 
-})(jQuery, window, document);
+}));
